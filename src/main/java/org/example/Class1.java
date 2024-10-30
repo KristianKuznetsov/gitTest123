@@ -9,5 +9,11 @@ public class Class1 {
         ConsoleWriter.f1(String.valueOf(rand.nextGaussian()));
     }
 
-    
+    public static void function2() {
+        ConsoleWriter.f1(String.valueOf(rand.nextExponential()));
+    }
+
+    public static void function3() {
+        ConsoleWriter.f1(String.valueOf(rand.nextDouble()));
+    }
 }
